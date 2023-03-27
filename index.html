@@ -2,88 +2,71 @@
 <html lang="en">
 
     <head>
-      <meta charset="UTF-8" />
-      <title>steelie</title>
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <meta name="description" content="" />
-      <link rel="icon" href="favicon.png">
+        <meta charset="UTF-8" />
+        <title>My Personal Site</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="description" content="" />
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="css\styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
 
     <body>
-      <table cellspacing="30">
-          <tr>
-              <td><img src="london.jfif" alt="An AI generated image of London in 2040"
-                       style="width:300px;height:300px;"></td>
-              <td><h1>James Cooper</h1>
-              <p><em>Chemical <strong>engineer</strong> and programming beginner</em></p>
-              <p>I like competitions and spending time with friends</p></td>
-          </tr>
-      </table>
+        <div class="top-container">
+            <img class="top-cloud" src="cloud.png" alt="cloud-img">
+            <h1>I'm James.</h1>
+            <h3>a <span class="pro">pro</span>grammer</h3>
+            <img class="bottom-cloud" src="cloud.png" alt="cloud-img"><br>
+            <img src="mountain.png" alt="mountain-img">
+        </div>
 
-      <hr size="3" noshade>
+        <div class="middle-container">
+            <div class="profile">
+                <img class="prof-pic" src="https://static.vecteezy.com/system/resources/previews/000/662/702/original/vector-man-face-cartoon.jpg" alt="">
+                <h2>Hello,</h2>
+                <p>I am a Chemical Engineer currently diving into programming. My current focus is Data Science
+                    using languages like Python and R.</p>
+            </div>
+            <hr>
 
-      <h3>Education</h3>
-      <ul>
-        <li>Local High School</li>
-        <li><a href="https://www.bme.hu/">BME</a></li>
-      </ul>
+            <div class="skills">
+                <h2>My Skills</h2>
+                <div class="skill-row" style="margin-top: 50px">
+                  <img class="cheme-img" src="https://cdn-icons-png.flaticon.com/512/2095/2095855.png"
+                       style="background-color: blue">
+                  <h3>Chemical Engineering</h3>
+                  <p>I have always been fascinated by matter and the way it changes form. I have acquired domain
+                  knowledge in the field by completing a bachelor's programme in Chemical Engineering at the most
+                  prestigious technical university in Hungary, the Budapest University of Technology and Economics
+                  with an overall classification of 'excellent with highest honours'.</p>
+                </div>
+                <div class="skill-row">
+                    <img class="programming-img" src="https://media4.giphy.com/media/fGmmfwQtCyHvwzhlyj/giphy.gif?cid=ecf05e47zjdjcvkw6ejg2p4s3y54wapny09myx6er7779d96&amp;rid=giphy.gif&amp;ct=s" alt="Computer Sticker by Pacific Northwest National Laboratory">
+                    <h3>Programming</h3>
+                    <p>To broaden my skills I recently picked up programming. I used the R language to help me evaluate
+                    data from the pharmaceutical industry for my thesis. I aided a major company of the field by testing
+                    new methods used during stability studies of drugs, thus protecting consumers and saving resources
+                    for pharmaceutical companies. I'm currently on my way to completing online courses in Python,
+                    Data Science and Machine Learning.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h4>If you believe we could build something great together:</h4>
+                <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+            </div>
+        </div>
 
-    <h3>Work Experience</h3>
-    <table border="3">
-      <thead>
-        <tr>
-            <th>Dates</th>
-            <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td>2022</td>
-              <td>Quality Engineer Intern at Samsung SDI</td>
-          </tr>
-          <tr>
-              <td>2023</td>
-              <td>Data Engineer Intern at Bosch</td>
-          </tr>
-      </tbody>
-    </table>
 
-    <h3>Skills</h3>
-    <table>
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Python</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>R</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <table cellspacing="10">
-                    <tr>
-                        <td>Problem solving</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Communication</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    </table>
-            </table>
-            </td>
-        </tr>
-     </table>
-
-    <hr size="3" noshade>
-    <h3><a href="hobbies.html">My hobbies</a></h3>
-    <h3><a href="contact.html">Contact me</a></h3>
-
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"></a>
+            <a class="footer-link" href="https://twitter.com/"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/3256/3256013.png"></a>
+            <a class="footer-link" href="https://www.facebook.com/"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+            <p style="color: white">© 2023 James Cooper.</p>
+        </div>
     </body>
 
 </html>

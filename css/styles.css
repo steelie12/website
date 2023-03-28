@@ -48,12 +48,13 @@ p {
 /******* CLASS SELECTORS **************/
 .prof-pic {
     border-radius: 100%;
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: 40%;
 }
 
 .profile {
-    margin-bottom: 1%;
+    margin: 0 auto 1% auto;
+    width: 50%;
 }
 
 .top-container {
@@ -98,6 +99,16 @@ p {
      margin-right: 1.875rem;
      margin-top: 0.005rem;
      background-color: #1c2d77;
+}
+
+.sdi-img {
+     width: 25%;
+     height: 25%;
+     float: left;
+     margin-right: 2rem;
+     margin-bottom: 5rem;
+     position: relative;
+     top: 3rem;
 }
 
 .footer-link {
@@ -163,4 +174,10 @@ p {
 
 .title-sub {
     color: #FFD000;
+}
+
+.experience {
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
 }

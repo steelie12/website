@@ -1,8 +1,35 @@
 /********* TAG SELECTORS **************/
 body {
-    background-color: ;
     margin: 0;
     text-align: center;
+    font-family: "Playfair Display", sans-serif;
+}
+
+h1 {
+    color:  #11999E;
+    margin: 5% auto 0 auto;
+    font-size: 300%;
+}
+
+h2 {
+    color:  #11999E;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+h3 {
+    color: #66BFBF;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: normal;
+}
+
+p {
+    font-size: 150%;
 }
 
 hr {
@@ -13,50 +40,7 @@ hr {
   margin: 5% auto;
 }
 
-h1 {
-    color:  #11999E;
-    margin: 5% auto 0 auto;
-    font-family: "Playfair Display", sans-serif;
-    font-size: 300%;
-}
-
-h2 {
-    color:  #11999E;
-    font-family: "Playfair Display", sans-serif;
-    font-size: 250%;
-    font-weight: bold;
-}
-
-h3 {
-    color: #66BFBF;
-    font-family: "Playfair Display", sans-serif;
-    font-size: 200%;
-    font-weight: bold;
-}
-
-h4 {
-    font-family: "Playfair Display", sans-serif;
-    font-size: 150%;
-    font-weight: normal;
-}
-
-p {
-    font-family: "Playfair Display", sans-serif;
-    font-size: 150%;
-}
-
 /******* CLASS SELECTORS **************/
-.prof-pic {
-    border-radius: 100%;
-    width: 40%;
-    height: 40%;
-}
-
-.profile {
-    margin: 0 auto 1% auto;
-    width: 50%;
-}
-
 .top-container {
     height: 800%;
     background: url("https://wallpaperaccess.com/full/6109378.png") no-repeat fixed center / cover;
@@ -66,9 +50,31 @@ p {
     padding-bottom: 27%;
 }
 
+.title {
+    color: #FF9500;
+    font-size: 700%;
+}
+
 .middle-container {
     width: 70%;
     margin: auto;
+}
+
+.profile {
+    margin: 0 auto 1% auto;
+    width: 50%;
+}
+
+.prof-pic {
+    border-radius: 100%;
+    width: 40%;
+    height: 40%;
+}
+
+.skill-row {
+    margin: 10% auto 10% auto;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .cheme-img {
@@ -101,6 +107,12 @@ p {
      background-color: #1c2d77;
 }
 
+.experience {
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+
 .sdi-img {
      width: 25%;
      height: 25%;
@@ -111,23 +123,8 @@ p {
      top: 3rem;
 }
 
-.footer-link {
-    color:  #11999E;
-}
-
-.skill-row {
-    margin: 10% auto 10% auto;
-    text-align: justify;
-    line-height: 1.5;
-}
-
-
-.icon {
-    position: relative;
-    right: 0.9375rem;
-    margin-left: 1.875rem;
-    width: 3%;
-    height: 3%;
+.contact-me {
+    margin-bottom: 1%;
 }
 
 .btn {
@@ -157,27 +154,20 @@ p {
   text-decoration: none;
 }
 
-.contact-me {
-    margin-bottom: 1%;
-}
-
 .bottom-container {
     background-color: #264653;
-    padding: 1.875rem 0;
-    margin: 1.875rem 0 0 0;
+    padding: 1.875rem 0 0.5rem 0;
+    margin: 5rem 0 0 0;
 }
 
-.title {
-    color: #FF9500;
-    font-size: 700%;
+.footer-link {
+    color:  #11999E;
 }
 
-.title-sub {
-    color: #FFD000;
-}
-
-.experience {
-    margin: auto;
-    text-align: justify;
-    line-height: 1.5;
+.icon {
+    position: relative;
+    right: 0.9375rem;
+    margin-left: 1.875rem;
+    width: 3%;
+    height: 3%;
 }
